@@ -93,6 +93,16 @@ Edit src/App.js
   - right click on the opened browser and click inspect
   - choose 'Components' and see there
 
+# Chapter 4
+
+- go to styled-components.com and your choice to use it
+- OR go inline style using two curly braces and camelCase, see it in the Header
+- Or use internal style, see it in the Header
+
+- We are NOT using inline or internal style, so
+  - delete App.css and logo.svg
+
+
 ### ============================
 
 - npm uninstall -g create-react-app
