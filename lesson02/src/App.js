@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-const nameChange = function(){
-	const names = ["Mandalay", "Yangon", "Myanmar"];
-	const name = Math.floor(Math.random() * 3);
-	return names[name];
-  }
-  
 function App() {
+  const nameChange = function () {
+    const names = ["Mandalay", "Yangon", "Myanmar"];
+    const name = Math.floor(Math.random() * 3);
+    return names[name];
+  };
+
   return (
     <div className="App">
       <header className="App-header">

@@ -62,16 +62,36 @@ Edit src/App.js
   - <p>{x()}</p>		//ok
 
   - const nameChange = function(){
-	const names = ["Mandalay", "Yangon", "Myanmar"];
-	const name = Math.floor(Math.random() * 3);
-	return names[name];
-  }
+    const names = ["Mandalay", "Yangon", "Myanmar"];
+    const name = Math.floor(Math.random() \* 3);
+    return names[name];
+    }
   - And call the nameChange() inside the next function block
 
 # Chapter 3
 
 - create src/Header.js
-- command+shift+p -> type \_rafce (it will create Header for you)
+- command+shift+p -> type -> rafce (it will create Header for you) [React Arrow Function Component with Export]
+- import to App.js
+  - import Header from './Header';
+- Remove import Logo
+- Remove all header in the return and
+
+  - inject new Header there like <Header />
+
+- Create Content.js
+- import to App.js
+  - import Content from './Content';
+  - inject new Content there like <Content />
+
+- Create Footer.js
+- import to App.js
+  - import Footer from './Footer';
+  - inject new Footer there like <Footer />
+
+- after installed 'React Developer Tools' in VS Code
+  - right click on the opened browser and click inspect
+  - choose 'Components' and see there
 
 ### ============================
 
