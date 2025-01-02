@@ -68,7 +68,7 @@ Edit src/App.js
     }
   - And call the nameChange() inside the next function block
 
-# Chapter 3
+# Lesson 3
 
 - create src/Header.js
 - command+shift+p -> type -> rafce (it will create Header for you) [React Arrow Function Component with Export]
@@ -93,14 +93,24 @@ Edit src/App.js
   - right click on the opened browser and click inspect
   - choose 'Components' and see there
 
-# Chapter 4
+# Lesson 4
 
 - go to styled-components.com and your choice to use it
 - OR go inline style using two curly braces and camelCase, see it in the Header
 - Or use internal style, see it in the Header
 
 - We are NOT using inline or internal style, so
-  - delete App.css and logo.svg
+  - Delete App.css and logo.svg
+  - Update index.css with our own style, and make sure in include the following in the index.js
+    - import './index.css';
+
+# Lesson 5 
+- Update the Content.js with click events
+  -  <p onDoubleClick={handleClick}>Hello {nameChange()}!</p>
+  -  <button onClick={handleClick}>Click It</button>
+  -  <button onClick={() => handleClick2('Rangoon')}>Click It</button>
+  -  <button onClick={(e) => handleClick3(e)}>Click It</button>
+  -  <p style={{color: "blue", fontWeight: "bold"}}>{message}</p>
 
 
 ### ============================

@@ -2,7 +2,7 @@
 
 # Lesson 2 (review it if needed)
 
-# Chapter 3 (Using ES7 React/Redux & React Dev Tools)
+# Lesson 3 (Using ES7 React/Redux & React Dev Tools)
 
 - create src/Header.js
 - command+shift+p -> type -> rafce (it will create Header for you) [React Arrow Function Component with Export]
