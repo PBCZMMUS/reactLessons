@@ -112,6 +112,14 @@ Edit src/App.js
   -  <button onClick={(e) => handleClick3(e)}>Click It</button>
   -  <p style={{color: "blue", fontWeight: "bold"}}>{message}</p>
 
+# Lesson 6
+- Update the Content.js with useState
+1.	“Change Name” Button:
+	•	Displays a new name randomly chosen from the array (Mandalay, Yangon, Myanmar).
+2.	Click Count Button:
+	•	Increments the count every time you click.
+	•	Displays the total number of clicks on the button itself.
+
 
 ### ============================
 
