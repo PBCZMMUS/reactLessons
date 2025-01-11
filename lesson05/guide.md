@@ -1,12 +1,12 @@
-# Lesson 1 (review it if needed)
+# Lesson 01 (review it if needed)
 
-# Lesson 2 (review it if needed)
+# Lesson 02 (review it if needed)
 
-# Lesson 3 (review it if needed)
+# Lesson 03 (review it if needed)
 
-# Lesson 4 (review it if needed)
+# Lesson 04 (review it if needed)
 
-# Lesson 5 
+# Lesson 05 
 - Update the Content.js with click events
     -  <p onDoubleClick={handleClick}>Hello {nameChange()}!</p>
     -  <button onClick={handleClick}>Click It</button>

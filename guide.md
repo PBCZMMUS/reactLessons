@@ -1,4 +1,4 @@
-# Lesson 1
+# Lesson 01 Start Here
 
 ## React အတွက် ကြိုတင်ပြုလုပ်ရန်များ
 
@@ -38,7 +38,7 @@ Added the following to the package.json
 - run: npm start
 - Go to App.js and made some changes and see it
 
-# Lesson 2
+# Lesson 02 App & JSX
 
 Edit src/App.js
 
@@ -68,7 +68,7 @@ Edit src/App.js
     }
   - And call the nameChange() inside the next function block
 
-# Lesson 3
+# Lesson 03 Components
 
 - create src/Header.js
 - command+shift+p -> type -> rafce (it will create Header for you) [React Arrow Function Component with Export]
@@ -93,7 +93,7 @@ Edit src/App.js
   - right click on the opened browser and click inspect
   - choose 'Components' and see there
 
-# Lesson 4
+# Lesson 04 CSS Styles
 
 - go to styled-components.com and your choice to use it
 - OR go inline style using two curly braces and camelCase, see it in the Header
@@ -104,7 +104,7 @@ Edit src/App.js
   - Update index.css with our own style, and make sure in include the following in the index.js
     - import './index.css';
 
-# Lesson 5 
+# Lesson 05 Click Events 
 - Update the Content.js with click events
   -  <p onDoubleClick={handleClick}>Hello {nameChange()}!</p>
   -  <button onClick={handleClick}>Click It</button>
@@ -112,7 +112,7 @@ Edit src/App.js
   -  <button onClick={(e) => handleClick3(e)}>Click It</button>
   -  <p style={{color: "blue", fontWeight: "bold"}}>{message}</p>
 
-# Lesson 6
+# Lesson 06 useState Hook
 - Update the Content.js with useState
 1.	“Change Name” Button:
 	•	Displays a new name randomly chosen from the array (Mandalay, Yangon, Myanmar).
@@ -120,7 +120,7 @@ Edit src/App.js
 	•	Increments the count every time you click.
 	•	Displays the total number of clicks on the button itself.
 
-# Lesson 7 
+# Lesson 07 Lists & Keys 
 - remove all click events from previous lesson 6
 - remove setCount useState as well
 - change setName useState with an array
@@ -154,7 +154,13 @@ Refer to the react-icons documentation for a full list of supported libraries.
     - add localStorage
     - add a message if the list is empty just before the <ul>
 
-    
+# Lesson 08 Props & Drop Drilling
+
+# Lesson 09 Controlled Form Inputs
+# Lesson 10 Project Challenge
+# Lesson 11 useEffect Hook
+# Lesson 12 JSON Server
+
 ### ============================
 
 - npm uninstall -g create-react-app

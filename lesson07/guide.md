@@ -1,16 +1,16 @@
-# Lesson 1 (review it if needed)
+# Lesson 01 (review it if needed)
 
-# Lesson 2 (review it if needed)
+# Lesson 02 (review it if needed)
 
-# Lesson 3 (review it if needed)
+# Lesson 03 (review it if needed)
 
-# Lesson 4 (review it if needed)
+# Lesson 04 (review it if needed)
 
-# Lesson 5 (review it if needed)
+# Lesson 05 (review it if needed)
 
-# Lesson 6 (review it if needed)
+# Lesson 06 (review it if needed)
 
-# Lesson 7 
+# Lesson 07 
 - remove all click events from previous lesson 6
 - remove setCount useState as well
 - change setName useState with an array

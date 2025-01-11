@@ -1,10 +1,10 @@
-# Lesson 1 (review it if needed)
+# Lesson 01 (review it if needed)
 
-# Lesson 2 (review it if needed)
+# Lesson 02 (review it if needed)
 
-# Lesson 3 (review it if needed)
+# Lesson 03 (review it if needed)
 
-# Lesson 4
+# Lesson 04
 
 - go to styled-components.com and your choice to use it
 - OR go inline style using two curly braces and camelCase, see it in the Header

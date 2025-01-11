@@ -1,14 +1,16 @@
 # Lesson 1 (review it if needed)
 
-# Lesson 2 (review it if needed)
+# Lesson 01 (review it if needed)
 
-# Lesson 3 (review it if needed)
+# Lesson 02 (review it if needed)
 
-# Lesson 4 (review it if needed)
+# Lesson 03 (review it if needed)
 
-# Lesson 5 (review it if needed)
+# Lesson 04 (review it if needed)
 
-# Lesson 6
+# Lesson 05 (review it if needed)
+
+# Lesson 06
 - Update the Content.js with useState
 1.	“Change Name” Button:
 	•	Displays a new name randomly chosen from the array (Mandalay, Yangon, Myanmar).

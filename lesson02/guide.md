@@ -1,7 +1,6 @@
-# Lesson 1 (To review if needed)
+# Lesson 01 (To review if needed)
 
-
-# Lesson 2
+# Lesson 02
 
 Edit src/App.js
 
