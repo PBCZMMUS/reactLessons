@@ -3,7 +3,8 @@ import { FaTrashAlt } from "react-icons/fa"; // Import Font Awesome Trash Icon
 
 const LineItem = ({ item, handleCheck, handleDelete }) => {
   return (
-    <li className="item" key={item.id}>
+    // <li className="item" key={item.id}>
+    <li className="item">
       {/* Checkbox with toggle functionality */}
       <input
         type="checkbox"
