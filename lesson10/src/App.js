@@ -1,22 +1,26 @@
-import "./App.css";
-import Header from "./Header";
-import Content from "./Content";
-import Footer from "./Footer";
+import Square from "./Square";
+import Input from "./Input";
+import { useState } from "react";
 
 function App() {
-  // const nameChange = function () {
-  //   const names = ["Mandalay", "Yangon", "Myanmar"];
-  //   const name = Math.floor(Math.random() * 3);
-  //   return names[name];
-  // };
+  const [colorValue, setColorValue] = useState("");
+  const [hexValue, setHexValue] = useState("");
+  const [isDarkText, setIsDarkText] = useState(true);
 
-  return (
-    <div className="App">
-      <Header />
-      <Content />
-      <Footer />
-    </div>
-  );
+  return <div className="App">
+    <Square 
+      colorValue={colorValue}
+      hexValue={hexValue}
+      isDarkText={isDarkText}
+    />
+    <Input 
+      colorValue={colorValue} 
+      setColorValue={setColorValue}
+      setHexValue={setHexValue}
+      isDarkText={isDarkText}
+      setIsDarkText={setIsDarkText}
+    />
+  </div>;
 }
 
 export default App;
