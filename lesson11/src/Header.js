@@ -1,24 +1,15 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ title = "Groceries @Dagon"}) => {
   // Internal Style
   const headerStyle = {
     backgroundColor: "royalblue",
     color: "#fff",
-    padding: "3px 0",
+    padding: "5px 10px",
   };
   return (
-    <header
-      // Internal Style
-      style={headerStyle}
-
-      // Inline Style
-      // style={{
-      //   backgroundColor: "mediumblue",
-      //   color: "#fff",
-      // }}
-    >
-      <h1>Groceries List</h1>
+    <header style={headerStyle}>
+      <h1>{title}</h1>
     </header>
   );
 };

@@ -12,5 +12,19 @@
 
 # Lesson 07 Lists & Keys (review it if needed)
 
-# Lesson 08 Props & Drop Drilling
-    - Do NOT forget to install react-icons [npm install react-icons --save]
+# Lesson 08 Props & Drop Drilling (review it if needed)
+
+# Lesson 09 Control Component (review it if needed)
+
+# Lesson 10 Add Color Name
+
+# Lesson 11 useEffect
+    -   add useEffect at App.js
+        -   import React, { useState, useEffect } from "react";
+        -   useEffect(() => {
+                console.log('load time')
+                localStorage.setItem("shoppinglist", JSON.stringify(items));
+            }, [items]);
+        -   remove the setAndSaveItems() and
+        -   change addItem and handles the setAndSaveItems with setItems
+    
